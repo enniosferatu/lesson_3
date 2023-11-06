@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="icon" href="../assets/img/202335-200.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <Header class="header">
+    <h1 class="name">Contacts</h1>
+    <nav>
+      <a class="links" href="../index.html">Main</a>
+      <a class="links" href="articles.html">Articles</a>
+      <a class="links" href="catalog.html">Catalog</a>
+      <a class="links" href="">Contacts</a>
+      <a class="links" href="gallery.html">Gallery</a>
+      <a class="links" href="page-nav.html">Navigation</a>
+      <a class="links" href="registration.html">Registration</a>
+    </nav>
+  </Header>
+  <div class="container">
+    <div>
+      <fieldset>
+        <legend>Contacts</legend>
+        <div>
+          <p class="contactp">Adress: Baltimore, Maryland</p>
+        </div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98821.0006985145!2d-76.62049675!3d39.2847064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c803aed6f483b7%3A0x44896a84223e758!2z0JHQsNC70YLRltC80L7RgCwg0JzQtdGA0ZbQu9C10L3QtCwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!5e0!3m2!1suk!2sua!4v1698492677471!5m2!1suk!2sua"
+            width="600" height="450" style="border:0; margin: 7px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </fieldset>
+    </div>
+    <div>
+      <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+        <div>
+          <fieldset class="contactp">
+            <legend>Your contacts</legend>
+            <div>
+              <label class="contactlabel" for="con-name">Name</label>
+              <input class="contactinput capinput" style="margin-left: 70px" id="con-name" name="con-name"
+                placeholder="Name" type="text">
+            </div>
+            <div>
+              <label class="contactlabel" for="con-phone">Phone number</label>
+              <input class="contactinput" id="con-phone" name="con-phone" placeholder="Phone" type="tel">
+            </div>
+            <div>
+              <label class="contactlabel" for="con-email">Email</label>
+              <input class="contactinput capinput" style="margin-left: 73px" id="con-email" name="con-email"
+                placeholder="Email" type="email">
+            </div>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Ask Something</legend>
+            <label class="contactlabel" for="ask">Question</label>
+            <textarea class="contactinput" cols="26" id="ask" style="margin-top: 5px" name="ask" rows="7"></textarea>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Buttons</legend>
+            <div>
+              <button class="button" type="submit">Send</button>
+            </div>
+            <div>
+              <button class="button" type="reset">Clear</button>
+            </div>
+          </fieldset>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="footer-copyright">© Ennio</div>
+    </footer>
+</body>
+
+</html>

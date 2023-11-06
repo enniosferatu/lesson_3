@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="icon" href="../assets/img/202335-200.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <Header class="header">
+    <h1 class="name">Registration</h1>
+    <nav>
+      <a class="links" href="../index.html">Main</a>
+      <a class="links" href="articles.html">Articles</a>
+      <a class="links" href="catalog.html">Catalog</a>
+      <a class="links" href="contacts.html">Contacts</a>
+      <a class="links" href="gallery.html">Gallery</a>
+      <a class="links" href="page-nav.html">Navigation</a>
+      <a class="links" href="">Registration</a>
+    </nav>
+  </Header>
+  <div class="container">
+    <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+      <div>
+        <fieldset>
+          <legend>Personal info</legend>
+          <div>
+            <label for="reg-name">Name</label>
+            <input class="contactinput capinput" style="margin-left: 96px" id="reg-name" name="reg-name"
+              placeholder="Name" type="text">
+          </div>
+          <div>
+            <label for="reg_lastname">Last Name</label>
+            <input class="contactinput capinput" style="margin-left: 61px" id="reg_lastname" name="reg_lastname"
+              placeholder="Last Name" type="text">
+          </div>
+          <div>
+            <label for="con-email">Email</label>
+            <input class="contactinput capinput" style="margin-left: 98px" id="con-email" name="con-email"
+              placeholder="Email" type="email">
+          </div>
+          <div>
+            <label for="pass">Password</label>
+            <input class="contactinput" style="margin-left: 68px" id="pass" name="pass" placeholder="Password"
+              type="password">
+          </div>
+          <div>
+            <label for="conf-pass">Confirm Password</label>
+            <input class="contactinput" id="conf-pass" name="conf-pass" placeholder="Password" type="password">
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Choose Sex</legend>
+          <div class="formborder">
+            <input id="gender-male" name="gender" type="radio" value="male">
+            <label for="gender-male">Male</label>
+          </div>
+          <div class="formborder">
+            <input id="gender-female" name="gender" type="radio" value="male">
+            <label for="gender-female">Female</label>
+          </div>
+          <div class="formborder">
+            <input checked disabled id="gender-un" name="gender" type="radio" value="male">
+            <label for="gender-un">Unknown</label>
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Choose Your Birth Date</legend>
+          <div>
+            <label for="birth">Birth Date</label>
+            <input class="contactinput" style="margin-left: 80px" id="birth" name="birth" type="date">
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend class="contactp">Choose Fav Album(s)</legend>
+          <div class="formborder">
+            <input name="singles" id="singles" type="checkbox">
+            <label for="singles">Singles</label>
+          </div>
+          <div class="formborder">
+            <input name="aslong" id="aslong" type="checkbox">
+            <label for="aslong">As Long as You Are</label>
+          </div>
+          <div class="formborder">
+            <input name="farfield" id="farfield" type="checkbox">
+            <label for="farfield">The Far Field</label>
+          </div>
+          <div class="formborder">
+            <input name="other" id="other" type="checkbox">
+            <label for="other">Other(s)...</label>
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Something About Yourself</legend>
+          <label class="contactlabel" for="ask">About Yourself</label>
+          <textarea class="contactinput" cols="24" id="ask" style="margin-top: 5px" name="ask" rows="5"></textarea>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Buttons</legend>
+          <div>
+            <button class="button" type="submit">Sign Up</button>
+          </div>
+          <div>
+            <button class="button" type="reset">Clear</button>
+        </fieldset>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-copyright">© Ennio</div>
+  </footer>
+</body>
+
+</html>
