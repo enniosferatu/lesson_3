@@ -1,7 +1,7 @@
 html {
-  background: url(assets/img/minimal-lighthouse-night-hd-wallpaper.jpg) 0 0 /
+  background: url(../assets/img/minimal-lighthouse-night-hd-wallpaper.jpg) 0 0 /
       100% 100%,
-    url(assets/img/coast_lighthouse_4k.jpg) top right/ 600px 400px no-repeat;
+    url(../assets/img/coast_lighthouse_4k.jpg) top right/ 600px 400px no-repeat;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: "Dosis", sans-serif;
@@ -78,7 +78,7 @@ a {
 }
 
 .star {
-  list-style-image: url(assets/img/star.svg);
+  list-style-image: url(../assets/img/star.svg);
 }
 
 .li-list {
@@ -86,7 +86,7 @@ a {
   background-color: rgb(210, 81, 81);
   margin: 10px;
   padding: 10px 10px 10px 37px;
-  list-style-image: url(assets/img/heart.svg);
+  list-style-image: url(../assets/img/heart.svg);
   width: 400px;
 }
 
@@ -128,7 +128,7 @@ label {
 /*Gallery*/
 
 .backgr {
-  background: url(assets/img/istockphoto-1171146127-170667a.jpg) repeat;
+  background: url(../assets/img/istockphoto-1171146127-170667a.jpg) repeat;
   font-family: "Dosis", sans-serif;
   color: antiquewhite;
   font-size: 20px;
