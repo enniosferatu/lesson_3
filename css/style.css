@@ -29,13 +29,6 @@ body {
   margin: 20px auto 50px;
 }
 
-.nav-container {
-  width: 100%;
-  max-width: 1280px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
 h1 {
   text-align: center;
 }
@@ -210,7 +203,7 @@ img:hover {
 }
 
 /*footer*/
-.footer-container {
+.nf-container {
   width: 100%;
   max-width: 1280px;
   padding: 0 20px;
