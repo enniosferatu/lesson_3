@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background: url(../assets/img/minimal-lighthouse-night-hd-wallpaper.jpg) 0 0 /
       100% 100%,
@@ -15,10 +19,6 @@ body {
   margin: 0;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .container {
   width: 100%;
   background-color: rgba(35, 35, 35, 0.95);
@@ -29,13 +29,20 @@ body {
   margin: 20px auto 50px;
 }
 
+.nav-container {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 h1 {
   text-align: center;
 }
 
 nav {
-  border-bottom: 3px solid antiquewhite;
-  margin: 7px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 a {
@@ -46,10 +53,17 @@ a {
 .links {
   font-size: 25px;
   text-decoration: none;
-  margin: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: 0.5s;
 }
 
-.wrapper {
+.links:hover {
+  background-color: brown;
+  border-radius: 2px;
+}
+
+.links .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -196,6 +210,12 @@ img:hover {
 }
 
 /*footer*/
+.footer-container {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 
 .footer {
   position: fixed;
